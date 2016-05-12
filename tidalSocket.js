@@ -45,5 +45,5 @@ udp.open();
 udp.on('message', function(m) {
   var response = JSON.stringify(m);
   wss.broadcast(response);
-  console.log(m);
+  console.log(response);
 });
