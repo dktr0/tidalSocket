@@ -1,4 +1,4 @@
-process.title = 'dirtSocket';
+process.title = 'tidalSocket';
 var http = require('http');
 var WebSocket = require('ws');
 var nopt = require('nopt');
